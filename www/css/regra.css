@@ -1,0 +1,50 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1, label {
+    font-family: "Arial", display;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  label {
+    display: block;
+    font-size: 30px;
+  }
+  input[type=text], button {
+    font-family: Nunito, sans-serif;
+  }
+  input[type=text] {
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    max-width: 60px;
+    font-size: 22px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+  }
+  button {
+    display: block;
+    font-size: 25px;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #5588ff;
+    color: #fff;
+    margin: 10px auto 0;
+  }
+  button:hover,
+  button:focus {
+    background: #2266ff;
+    cursor: pointer;
+  }
+  p {
+    font-size: 20px;
+    padding: 20px;
+    background: #ccc;
+    border-radius: 6px;
+    font-family: Nunito;
+  }
